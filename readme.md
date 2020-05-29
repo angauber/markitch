@@ -2,9 +2,18 @@
 
 This twitch bot records messages in an sql database as markov chains
 
-It can then generate random sentences based on previously recorded chat messages
+It can then generate random word-sentences by mixing up previously recorded chat messages
 
-`!random`
+```
+!random
+Mike potatos chips
+!random
+Player 1 has won 4 matches this set.
+!random
+ez dodge
+!random
+7 barracks is too good
+```
 
 ## Requirements
 * Python 3.7
@@ -39,3 +48,5 @@ It can then generate random sentences based on previously recorded chat messages
 `python3 markitch_daemon.py stop` to stop the daemon
 
 If you suspect something is not working you can check the logs in `/var/log/markitch/`
+
+You can generate a random senetence in the terminal with `python3 gen.py` or directly in the twitch chat with `!random`
