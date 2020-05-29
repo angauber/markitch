@@ -1,0 +1,5 @@
+numpy==1.16.2
+PyMySQL==0.9.3
+irc==18.0.0
+lockfile==0.12.2
+python_daemon==2.2.4
