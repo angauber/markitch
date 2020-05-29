@@ -1,4 +1,4 @@
-# markitch
+# Markitch
 
 This twitch bot records messages in an sql database as markov chains
 
