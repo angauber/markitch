@@ -13,8 +13,10 @@ It can then generate random sentences based on previously recorded chat messages
 ## Installation and setup
 1. Clone the repository
 2. Install python dependencies
+
 	`pip3 install -r requirements.txt`
 3. Create log and pid dirrectories
+
 	`sudo mkdir /var/log/markitch`
 	
 	`sudo chown YOUR_USER /var/log/markitch`
@@ -22,6 +24,7 @@ It can then generate random sentences based on previously recorded chat messages
 	`mkdir -p ~/.run/markitch`
 4. Create a mysql database
 5. Rename the config file
+
 	`mv config.py.example config.py`
 6. Edit `config.py` with your configuration
 
